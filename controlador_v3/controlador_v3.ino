@@ -1,10 +1,6 @@
-#include <Gamepad.h>
+#include <Joystick.h>
 
-// Joy 1
-Gamepad gb;
-
-// Joy2
-// Gamepad gb(false,2);
+Joystick_ gb;
 
   
 void setup() {

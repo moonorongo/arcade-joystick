@@ -1,0 +1,4 @@
+Al constructor le agregue joy_no
+si le pasamos 1 configura el hid 0x03
+si le pasamos 2 configura el hid 0x04
+

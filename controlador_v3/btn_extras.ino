@@ -34,7 +34,6 @@ void loopXtras() {
     btn_2p = true;
   }
 
-/*
   switch(btn_coin_status) {
     case 0 : if(!digitalRead(BTN_COIN)) {
           btn_coin_status = 1;
@@ -55,11 +54,9 @@ void loopXtras() {
         }
         break;
   }
- */
  
   gb.setButtonState(6, btn_1p);
   gb.setButtonState(7, btn_2p);
- // gb.setButtonState(8, btn_coin);  
- gb.setButtonState(8, !digitalRead(BTN_COIN));  
+  gb.setButtonState(8, btn_coin);  
   gb.setButtonState(9, !digitalRead(BTN_HOT));  
 }
